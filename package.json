@@ -1,0 +1,30 @@
+{
+  "name": "p5js-network-starter",
+  "version": "0.0.1",
+  "description": "This is a very simple boilerplate to start with socket.io.",
+  "keywords": [
+    "p5js",
+    "boilerplate",
+    "socket.io"
+  ],
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "gokce",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gokce/p5js-boilerplate"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "eslint-config-p5js": "1.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "connect-browser-sync": "^2.1.0"
+  }
+}
